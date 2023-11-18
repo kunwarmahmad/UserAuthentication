@@ -39,7 +39,7 @@ const LoginScreen = ({ navigation }) => {
         onChangeText={(text) => setPassword(text)}
       />
       <TouchableOpacity
-        style={[styles.button, { backgroundColor: '#3498db' }]}
+        style={[styles.button, { backgroundColor: '#3498db', marginTop: 30 }]}
         onPress={handleLogin}
       >
         <Text style={styles.buttonText}>Login</Text>
